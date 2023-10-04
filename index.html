@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css"
+      integrity="sha512-ZnR2wlLbSbr8/c9AgLg3jQPAattCUImNsae6NHYnS9KrIwRdcY9DxFotXhNAKIKbAXlRnujIqUWoXXwqyFOeIQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <div class="calculator-grid">
+      <div class="output">
+        <div id="history-icon">
+          <i class="bi bi-arrow-counterclockwise icon"></i>
+          <span class="tooltiptext">History Press (H)</span>
+        </div>
+        <!-- display section -->
+        <div data-previous-operand class="previous-operand"></div>
+        <div data-current-operand class="current-operand">0</div>
+      </div>
+      <!-- Buttons -->
+      <button data-all-clear class="span-two">AC</button>
+      <button data-delete><i class="bi bi-backspace"></i></button>
+      <button data-operation>%</button>
+      <button data-specialoperation>1/𝑥</button>
+      <button data-specialoperation>𝑥²</button>
+      <button data-specialoperation>√𝑥</button>
+      <button data-operation>÷</button>
+      <button data-number>1</button>
+      <button data-number>2</button>
+      <button data-number>3</button>
+      <button data-operation>×</button>
+      <button data-number>4</button>
+      <button data-number>5</button>
+      <button data-number>6</button>
+      <button data-operation>-</button>
+      <button data-number>7</button>
+      <button data-number>8</button>
+      <button data-number>9</button>
+      <button data-operation>+</button>
+      <button data-positivenegative>+/-</button>
+      <button data-number>0</button>
+      <button data-number>.</button>
+      <button data-equals>=</button>
+      <div data-history></div>
+    </div>
+  </body>
+</html>
