@@ -1,6 +1,6 @@
 # Windows 10 Standard Calculator Clone App
 
-This JavaScript calculator lets users execute fundamental mathematical operations such as addition, subtraction, multiplication, and division. Special operations such as square root, reciprocal, and percentage computations are also included. For improved use, the calculator has a graphical user interface (GUI) for input and output, as well as keyboard input.
+This JavaScript web-based calculator lets users execute fundamental mathematical operations such as addition, subtraction, multiplication, and division. Special operations such as square root, reciprocal, and percentage computations are also included. For improved use, the calculator has a graphical user interface (GUI) for input and output, as well as keyboard input.
 
 [View Demo](https://lalitkumar4.github.io/windows-10-standard-calculator-clone-app/)
 
